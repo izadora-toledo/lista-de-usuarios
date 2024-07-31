@@ -1,0 +1,296 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+/* aplica pra geral */
+body 
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* importar.blade */
+.importar-container 
+{
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.form-importar 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.btn-importar 
+{
+    background-color: #FF834D;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-importar:hover 
+{
+    background-color: #A75CFF;
+    color: white;
+}
+
+.seta 
+{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;   
+}
+
+/* importado.blade */
+.importado-container 
+{
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.form-importado 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.btn-importado 
+{
+    background-color: #FF834D;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-importado:hover 
+{
+    background-color: #A75CFF;
+    color: white;
+}
+
+@keyframes piscar {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.piscar {
+    animation: piscar 3s 2;
+}
+
+/* error.blade */
+.error-container 
+{
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.form-error 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.btn-error 
+{
+    background-color: #FF834D;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-error:hover 
+{
+    background-color: #A75CFF;
+    color: white;
+}
+
+.erro 
+{
+    color: red;
+}
+
+/* index.blade */
+.container {
+    margin-top: 10px;
+}
+
+.table-wrapper {
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-wrapper h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #343a40;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-importar-novamente {
+    background-color: #FF834D;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 10px; 
+}
+
+.btn-importar-novamente:hover {
+    background-color: #A75CFF;
+    color: white;
+}
+
+.seta-link {
+    display: inline-flex; 
+    align-items: center; 
+}
+
+.seta {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.dataTables_filter input {
+    border-radius: 20px;
+    border: 1px solid #e9ecef;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+}
+
+.dataTables_length select {
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
+    padding: 8px;
+    background-color: #ffffff;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.dataTables_paginate .paginate_button {
+    padding: 8px;
+    margin: 2px;
+    border-radius: 20px;
+    background-color: #FF834D;
+    color: white;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dataTables_paginate .paginate_button:hover {
+    background-color: #A75CFF;
+}
+
+.dataTables_paginate .paginate_button.current {
+    background-color: #DE5E2B;
+    font-weight: bold;
+}
+
+.dataTables_paginate .paginate_button a {
+    text-decoration: none;
+    color: white;
+}
+
+.dataTables_paginate .paginate_button a:hover {
+    text-decoration: none;
+}
+
+.dataTables_length {
+    margin-bottom: 15px;
+}
+
+.user-image {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1:hover {
+    color: #A75CFF;            
+}
+
+h1 {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}       
+
+#usuariosTable th {
+    background-color: #FF834D;
+    color: white;
+    cursor: pointer;
+}
+
+#usuariosTable th.tem-seta.sorting_asc::after,
+#usuariosTable th.tem-seta.sorting_desc::after {
+    content: "";
+    float: right;
+    margin-left: 5px;
+    border: 5px solid transparent;
+}
+
+#usuariosTable th.tem-seta.sorting_asc::after {
+    border-bottom-color: white;
+}
+
+#usuariosTable th.tem-seta.sorting_desc::after {
+    border-top-color: white;
+}
+
+#usuariosTable tbody tr {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+#usuariosTable tbody tr:hover {
+    background-color: #E2D4F5; 
+}     
