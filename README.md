@@ -63,7 +63,11 @@ Acesse a rota para importar dados:
 
 [http://127.0.0.1:8000/importar](http://127.0.0.1:8000/importar)
 
-Após acessar, basta clicar no botão 'Importar usuários' para que faça a importação correta dos usuários e logo você será encaminhado para uma tela de 'sucesso de importação', após isso clique no botão 'Acessar lista de usuários importados' que te encaminhará para o grid onde tem a lista dos usuários que você fez a importação. Caso queira testar novamente a aplicação, na tela do grid na parte superior tem um botão escrito 'Importar novamente'.
+Após acessar, basta clicar no botão 'Importar usuários' para que faça a importação correta dos usuários e logo você será encaminhado para uma tela de 'sucesso de importação'. 
+
+Após isso clique no botão 'Acessar lista de usuários importados' que te encaminhará para o grid onde tem a lista dos usuários que você fez a importação. 
+
+Caso queira testar novamente a aplicação, na tela do grid na parte superior tem um botão escrito 'Importar novamente'.
 
 ## Dicas da Aplicação
 
