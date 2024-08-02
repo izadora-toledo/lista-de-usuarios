@@ -28,26 +28,27 @@ Aplicação que consome uma API para retornar uma lista de usuários, salva esse
     ```bash
     composer install
     ```
+4. Faça uma cópia do arquivo .env.example e nomeie como .env
 
-4. Gere a chave de criptografia do Laravel:
+5. Gere a chave de criptografia do Laravel:
 
     ```bash
     php artisan key:generate
     ```
 
-5. Crie o arquivo `database.sqlite` dentro do diretório `database`:
+6. Crie o arquivo `database.sqlite` dentro do diretório `database`:
 
     ```bash
     touch database/database.sqlite
     ```
 
-6. Rode as migrations do banco de dados:
+7. Rode as migrations do banco de dados:
 
     ```bash
     php artisan migrate
     ```
 
-7. Inicie o servidor da aplicação:
+8. Inicie o servidor da aplicação:
 
     ```bash
     php artisan serve
